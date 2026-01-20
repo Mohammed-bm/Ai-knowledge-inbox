@@ -18,13 +18,11 @@ Focus: clarity, minimal UI, correct AI integration. Single user only.
 
 ## How to Install & Run
 
-```bash
 git clone <repo-url>
 cd ai-knowledge-inbox
 
 Backend
 
-```bash
 cd backend
 pip install -r requirements.txt
 export OPENAI_API_KEY="your_api_key_here"   # or set in .env
@@ -34,7 +32,6 @@ Backend URL: http://localhost:8000
 
 Frontend
 
-```bash
 cd frontend
 npm install
 npm run dev
